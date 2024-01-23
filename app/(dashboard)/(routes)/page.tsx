@@ -2,9 +2,5 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 
 export default function Home() {
-  return (
-    <div>
-      <Button>test</Button>
-    </div>
-  );
+  return <div>Homepage</div>;
 }
