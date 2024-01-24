@@ -23,6 +23,8 @@ const SidebarItem = ({ icon: Icon, label, href }: SidebarItemProps) => {
 
   return (
     <Button
+      variant={'sidebar'}
+      size={'sidebar'}
       onClick={() => router.push(href)}
       type="button"
       className={cn(
